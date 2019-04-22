@@ -1,0 +1,53 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,114,70)
+  Background = Color.White
+  Border = False
+  { PictureBox1 PictureBox
+    MoveScaled(94,55,20,13)
+    Picture = Picture["logo.png"]
+  }
+  { Nomostrar CheckBox
+    MoveScaled(4,62,51,5)
+    Text = ("Mostrar esta pantalla al inicio")
+    Value = CheckBox.True
+  }
+  { Button1 Button
+    MoveScaled(37,44,20,5)
+    Text = ("Guía de instalación")
+  }
+  { Button4 Button
+    MoveScaled(37,51,20,5)
+    Text = ("Asistente")
+  }
+  { Label1 Label
+    MoveScaled(8,-1,107,9)
+    Font = Font["Ubuntu,+5"]
+    Background = &HE7DFFF&
+    Foreground = Color.Gray
+    Text = ("Quirinux le da la bienvenida")
+  }
+  { TextArea1 TextArea
+    MoveScaled(38,11,69,30)
+    Background = Color.Transparent
+    Text = ("Gracias por probar la versión 1.1 de Quirinux (Spartan Edition) con mejoras, aplicaciones solicitadas por la comunidad, temas de escritorio y un asistente de uso y configuración.\n\nSi está utilizando Quirinux en modo \"live\", guarde todos los archivos que cree y/o modifique en un pendrive o disco externo, antes de apagar el sistema, caso contrario se perderán en el próximo inicio.\n\nPara instalar Quirinux en su disco rígido, siga al pie de la letra la guía PDF.\n")
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { Button9 Button
+    MoveScaled(70,64,22,4)
+    Font = Font["Arial,+1"]
+    Text = ("Salir de Bienvenida")
+  }
+  { PictureBox4 PictureBox
+    MoveScaled(6,13,29,25)
+    Picture = Picture["quirinux-caja-DVD.png"]
+    Stretch = True
+  }
+  { Button2 Button
+    MoveScaled(37,37,20,5)
+    Text = ("Dar un paseo")
+  }
+}

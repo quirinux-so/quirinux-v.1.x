@@ -1,0 +1,69 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,114,70)
+  Background = Color.White
+  Border = False
+  { Label1 Label
+    MoveScaled(8,0,107,8)
+    Font = Font["Ubuntu,+5"]
+    Background = &HE7DFFF&
+    Foreground = Color.Gray
+    Text = ("Descubra Quirinux")
+  }
+  { TextArea1 TextArea
+    MoveScaled(8,9,106,6)
+    Background = Color.Transparent
+    Tracking = True
+    Text = ("Muchas de las aplicaciones incluidas no vienen pre instaladas en ninguna otra versión de GNU/Linux. Estamos decididos a cambiar el estándar. ¡Sea parte del futuro!")
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { PictureBox2 PictureBox
+    MoveScaled(94,55,20,13)
+    Picture = Picture["logo.png"]
+  }
+  { Button9 Button
+    MoveScaled(80,64,11,4)
+    Font = Font["Arial,+1"]
+    NoTabFocus = True
+    Text = ("Salir")
+  }
+  { Button2 Button
+    MoveScaled(65,64,14,4)
+    Enabled = False
+    Font = Font["Arial,+1"]
+    Text = ("Siguiente")
+  }
+  { Button1 Button
+    MoveScaled(50,64,14,4)
+    Font = Font["Arial,+1"]
+    NoTabFocus = True
+    Text = ("Anterior")
+  }
+  { PictureBox3 PictureBox
+    MoveScaled(8,16,41,25)
+    Picture = Picture["dragonbones.png"]
+    Stretch = True
+    Border = Border.Sunken
+  }
+  { PictureBox4 PictureBox
+    MoveScaled(19,28,41,25)
+    Picture = Picture["Storyboarder.png"]
+    Stretch = True
+    Border = Border.Sunken
+  }
+  { PictureBox1 PictureBox
+    MoveScaled(51,16,41,24)
+    Picture = Picture["animation.gif"]
+    Stretch = True
+    Border = Border.Sunken
+  }
+  { PictureBox5 PictureBox
+    MoveScaled(62,29,41,24)
+    Picture = Picture["natron.png"]
+    Stretch = True
+    Border = Border.Sunken
+  }
+}

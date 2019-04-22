@@ -1,0 +1,79 @@
+' Gambas class file
+
+' Este módulo de código fuente pertenece a Quirinux y fue programado por Charlie Martinez
+' https://quirinux.neocities.org
+' Derehos reservados. Licencia GPLv3 Abril de 2019
+' 
+
+
+Public Sub Form_Open()
+
+  
+
+End
+
+Public Sub Label1_MouseDown()
+
+  
+
+End
+
+Public Sub TextArea1_KeyPress()
+
+  
+
+End
+
+Public Sub TextArea2_KeyPress()
+
+  
+
+End
+
+Public Sub Label2_MouseDown()
+
+  
+
+End
+
+Public Sub Nomostrar_Click()
+
+ If Nomostrar.Value = False Then Shell "cd /home/quirinux/programas/Inicio && rm bienvenida.gambas"
+ If Nomostrar.Value = True Then Shell "cp /home/quirinux/programas/Asistente/bienvenida.gambas /home/quirinux/programas/Inicio/bienvenida.gambas" 
+End
+
+Public Sub Button4_Click()
+
+  
+
+  Asistente.Show
+    Principal.Close
+
+
+End
+
+Public Sub Button3_Click()
+
+  
+
+End
+
+Public Sub Button1_Click()
+
+Shell "okular /home/quirinux/Guia-instalacion.pdf"
+
+
+End
+
+Public Sub Button2_Click()
+
+  Paseo001.Show
+  Principal.Close
+
+End
+
+Public Sub Button9_Click()
+
+  Principal.Close
+
+End

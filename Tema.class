@@ -1,0 +1,53 @@
+' Gambas class file
+
+' Este módulo de código fuente pertenece a Quirinux y fue programado por Charlie Martinez
+' https://quirinux.neocities.org
+' Derehos reservados. Licencia GPLv3 Abril de 2019
+' 
+
+
+Public Sub Button1_Click()
+
+  Shell "xfwm4-settings"
+
+End
+
+Public Sub Label1_MouseDown()
+
+  
+
+End
+
+Public Sub Button3_Click()
+
+
+ 
+    Tema.Close
+    Asistente.Show
+
+End
+
+Public Sub Button2_Click()
+
+ Shell "xfce4-appearance-settings"
+
+End
+
+Public Sub Button9_Click()
+
+  Tema.Close
+
+End
+
+Public Sub Button10_Click()
+
+  Principal.Show
+  Tema.Close
+
+End
+
+Public Sub Button4_Click()
+
+  Shell "xfdesktop-settings"
+
+End

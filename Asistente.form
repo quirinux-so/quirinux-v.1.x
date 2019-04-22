@@ -1,0 +1,73 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,115,70)
+  Background = Color.White
+  Border = False
+  { PictureBox1 PictureBox
+    MoveScaled(94,55,111,13)
+    Picture = Picture["logo.png"]
+  }
+  { Label1 Label
+    MoveScaled(8,0,109,8)
+    Font = Font["Ubuntu,+5"]
+    Background = &HE7DFFF&
+    Foreground = Color.Gray
+    Text = ("Asistente de Quirinux")
+  }
+  { TextArea1 TextArea
+    MoveScaled(48,14,41,5)
+    Font = Font["Arial,+4"]
+    Background = Color.Transparent
+    Foreground = Color.LightBackground
+    Text = ("Plantillas preformateadas")
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { Button1 Button
+    MoveScaled(48,19,34,7)
+    Font = Font["Arial,+2"]
+    Text = ("Escribir un argumento")
+  }
+  { Button2 Button
+    MoveScaled(48,27,34,7)
+    Font = Font["Arial,+2"]
+    Text = ("Escribir un guión")
+  }
+  { Button4 Button
+    MoveScaled(48,35,34,7)
+    Font = Font["Arial,+2"]
+    Text = ("CalCuTooN V.1.0")
+  }
+  { TextArea2 TextArea
+    MoveScaled(11,14,30,5)
+    Font = Font["Arial,+4"]
+    Background = Color.Transparent
+    Foreground = Color.LightBackground
+    Text = ("Configurar Quirinux")
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { Button3 Button
+    MoveScaled(8,19,34,7)
+    Font = Font["Arial,+2"]
+    Text = ("Cambiar tema")
+  }
+  { Button7 Button
+    MoveScaled(8,27,34,7)
+    Font = Font["Arial,+2"]
+    Text = ("Configurar teclado")
+  }
+  { Button8 Button
+    MoveScaled(8,35,34,7)
+    Font = Font["Arial,+2"]
+    Text = ("Instalar impresora")
+  }
+  { Button9 Button
+    MoveScaled(69,64,22,4)
+    Font = Font["Arial,+1"]
+    Text = ("Salir")
+  }
+}

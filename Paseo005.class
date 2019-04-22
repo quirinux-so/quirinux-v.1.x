@@ -1,0 +1,29 @@
+' Gambas class file
+
+' Este módulo de código fuente pertenece a Quirinux y fue programado por Charlie Martinez
+' https://quirinux.neocities.org
+' Derehos reservados. Licencia GPLv3 Abril de 2019
+' 
+
+
+Public Sub Button1_Click()
+
+  Paseo004.Show
+  Paseo005.Close
+
+End
+
+Public Sub Button2_Click()
+
+  Paseo006.Show
+  Paseo005.Close
+
+End
+
+Public Sub Button9_Click()
+
+  Paseo005.Close
+   Principal.Show
+
+
+End

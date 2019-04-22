@@ -1,0 +1,49 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,115,70)
+  Background = Color.White
+  Border = False
+  { Label1 Label
+    MoveScaled(8,0,107,8)
+    Font = Font["Ubuntu,+5"]
+    Background = &HE7DFFF&
+    Foreground = Color.Gray
+    Text = ("Descubra Quirinux")
+  }
+  { PictureBox1 PictureBox
+    MoveScaled(8,10,68,42)
+    Picture = Picture["opentoonz.png"]
+    Stretch = True
+  }
+  { TextArea1 TextArea
+    MoveScaled(81,10,31,42)
+    Background = Color.Transparent
+    Tracking = True
+    Text = ("La herramienta utilizada por Estudio Ghibli. A raíz de la liberación del código de Toonz (ahora OpenToonz) hacer animación en Linux comenzó a ser una posibilidad real y tangible, gracias al equipo Morevna. \n\nSi tiene una cámara reflex, OpenToonz también sirve para Pencil Test y Stop Motion (por ahora esta función no está disponible para cámaras web). \n\n")
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { PictureBox2 PictureBox
+    MoveScaled(94,55,20,13)
+    Picture = Picture["logo.png"]
+  }
+  { Button9 Button
+    MoveScaled(80,64,11,4)
+    Font = Font["Arial,+1"]
+    NoTabFocus = True
+    Text = ("Salir")
+  }
+  { Button2 Button
+    MoveScaled(65,64,14,4)
+    Font = Font["Arial,+1"]
+    Text = ("Siguiente")
+  }
+  { Button1 Button
+    MoveScaled(50,64,14,4)
+    Font = Font["Arial,+1"]
+    NoTabFocus = True
+    Text = ("Anterior")
+  }
+}

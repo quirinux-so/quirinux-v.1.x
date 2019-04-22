@@ -1,0 +1,79 @@
+' Gambas class file
+
+' Este módulo de código fuente pertenece a Quirinux y fue programado por Charlie Martinez
+' https://quirinux.neocities.org
+' Derehos reservados. Licencia GPLv3 Abril de 2019
+' 
+
+
+Public Sub Label1_MouseDown()
+
+  
+
+End
+
+Public Sub TextArea1_KeyPress()
+
+  
+
+End
+
+Public Sub Button1_Click()
+
+    Shell "libreoffice --writer /home/quirinux/Plantillas/Argumento.ott"
+
+End
+
+Public Sub Button3_Click()
+
+Principal.Close
+Tema.Show
+
+End
+
+Public Sub Button4_Click()
+
+    Shell "libreoffice --calc /home/quirinux/Plantillas/CaLcuTooN_V1-0_Abr2019.xls"
+
+End
+
+Public Sub Button10_Click()
+
+
+
+  Asistente.Close
+   Principal.Show
+
+End
+
+Public Sub Button9_Click()
+
+  Asistente.Close
+  Principal.Show
+
+End
+
+Public Sub Button7_Click()
+
+  Shell "xfce4-keyboard-settings"
+
+End
+
+Public Sub Button8_Click()
+
+  Shell "system-config-printer"
+
+End
+
+
+Public Sub Button5_Click()
+
+  Shell "xfdesktop-settings"
+
+End
+
+Public Sub Button2_Click()
+
+  Shell "libreoffice --writer /home/quirinux/Plantillas/Guión_cinematográfico.ott"
+
+End

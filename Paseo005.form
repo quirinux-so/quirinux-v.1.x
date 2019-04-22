@@ -1,0 +1,49 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,115,70)
+  Background = Color.White
+  Border = False
+  { Label1 Label
+    MoveScaled(8,0,107,8)
+    Font = Font["Ubuntu,+5"]
+    Background = &HE7DFFF&
+    Foreground = Color.Gray
+    Text = ("Descubra Quirinux")
+  }
+  { PictureBox2 PictureBox
+    MoveScaled(94,55,20,13)
+    Picture = Picture["logo.png"]
+  }
+  { Button9 Button
+    MoveScaled(80,64,11,4)
+    Font = Font["Arial,+1"]
+    NoTabFocus = True
+    Text = ("Salir")
+  }
+  { Button2 Button
+    MoveScaled(65,64,14,4)
+    Font = Font["Arial,+1"]
+    Text = ("Siguiente")
+  }
+  { Button1 Button
+    MoveScaled(50,64,14,4)
+    Font = Font["Arial,+1"]
+    NoTabFocus = True
+    Text = ("Anterior")
+  }
+  { PictureBox1 PictureBox
+    MoveScaled(8,10,69,42)
+    Picture = Picture["tupi.png"]
+    Stretch = True
+  }
+  { TextArea1 TextArea
+    MoveScaled(81,9,31,48)
+    Background = Color.Transparent
+    Tracking = True
+    Text = ("Quirinux incluye la herramienta TupiTube de Maefloresta, excelente para enseñar animación a los niños, dada su simpleza, aunque potente como para ser usada también por adultos aficionados y profesionales.\n\nBuscando un equilibrio entre estabilidad e innovación, TupiTube se incluye en versión Beta, pero con el claro compromiso de actualizar a la estable ni bien la misma se encuentre disponible.\n\n")
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+}

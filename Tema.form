@@ -1,0 +1,49 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,114,70)
+  Background = Color.White
+  Border = False
+  { Button1 Button
+    MoveScaled(81,40,29,5)
+    Text = ("Aspecto de las ventanas")
+  }
+  { Button2 Button
+    MoveScaled(9,40,29,5)
+    Text = ("Íconos y tema general")
+  }
+  { PictureBox1 PictureBox
+    MoveScaled(11,12,23,25)
+    Picture = Picture["temas.png"]
+    Border = Border.Sunken
+  }
+  { PictureBox2 PictureBox
+    MoveScaled(87,19,16,10)
+    Picture = Picture["ventanas.png"]
+    Border = Border.Sunken
+  }
+  { Label1 Label
+    MoveScaled(8,0,107,8)
+    Font = Font["Ubuntu,+5"]
+    Background = &HE7DFFF&
+    Foreground = Color.Gray
+    Text = ("Personalizar Quirinux")
+  }
+  { Button3 Button
+    MoveScaled(70,64,22,4)
+    Font = Font["Arial,+1"]
+    Text = ("Salir")
+  }
+  { PictureBox3 PictureBox
+    MoveScaled(94,55,20,13)
+    Picture = Picture["logo.png"]
+  }
+  { Button4 Button
+    MoveScaled(46,40,29,5)
+    Text = ("Cambiar fondo de escritorio")
+  }
+  { PictureBox4 PictureBox
+    MoveScaled(51,17,20,15)
+    Picture = Picture["cambiarfondo.png"]
+  }
+}

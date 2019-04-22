@@ -1,0 +1,49 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,115,70)
+  Background = Color.White
+  Border = False
+  { Label1 Label
+    MoveScaled(8,0,107,8)
+    Font = Font["Ubuntu,+5"]
+    Background = &HE7DFFF&
+    Foreground = Color.Gray
+    Text = ("Descubra Quirinux")
+  }
+  { PictureBox2 PictureBox
+    MoveScaled(8,10,69,42)
+    Picture = Picture["gimp.png"]
+    Stretch = True
+    Border = Border.Sunken
+  }
+  { PictureBox1 PictureBox
+    MoveScaled(94,55,20,13)
+    Picture = Picture["logo.png"]
+  }
+  { Button9 Button
+    MoveScaled(80,64,11,4)
+    Font = Font["Arial,+1"]
+    Text = ("Salir")
+  }
+  { Button2 Button
+    MoveScaled(65,64,14,4)
+    Font = Font["Arial,+1"]
+    Text = ("Siguiente")
+  }
+  { Button1 Button
+    MoveScaled(50,64,14,4)
+    Font = Font["Arial,+1"]
+    NoTabFocus = True
+    Text = ("Anterior")
+  }
+  { TextArea1 TextArea
+    MoveScaled(80,10,31,42)
+    Background = Color.Transparent
+    Tracking = True
+    Text = ("Quirinux es la primera distribución que incorpora los trucos esparcidos por internet y adapta y distribuye Gimp de una forma que resultará familiar a los usuarios que vienen de utilizar Photoshop. \n\nLa adatación de los shortcuts, flujo de trabajo, íconos y comportamientos del programa se hizo siguiendo algunos de los pasos publicados por Noé Reyes Guerra en el Blog Technodyan. \n")
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+}

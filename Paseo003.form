@@ -1,0 +1,49 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,115,70)
+  Background = Color.White
+  Border = False
+  { Label1 Label
+    MoveScaled(8,0,107,8)
+    Font = Font["Ubuntu,+5"]
+    Background = &HE7DFFF&
+    Foreground = Color.Gray
+    Text = ("Descubra Quirinux")
+  }
+  { PictureBox1 PictureBox
+    MoveScaled(94,55,20,13)
+    Picture = Picture["logo.png"]
+  }
+  { Button9 Button
+    MoveScaled(80,64,11,4)
+    Font = Font["Arial,+1"]
+    NoTabFocus = True
+    Text = ("Salir")
+  }
+  { Button2 Button
+    MoveScaled(65,64,14,4)
+    Font = Font["Arial,+1"]
+    Text = ("Siguiente")
+  }
+  { Button1 Button
+    MoveScaled(50,64,14,4)
+    Font = Font["Arial,+1"]
+    NoTabFocus = True
+    Text = ("Anterior")
+  }
+  { PictureBox2 PictureBox
+    MoveScaled(8,10,69,42)
+    Picture = Picture["kdenlive.png"]
+    Stretch = True
+  }
+  { TextArea1 TextArea
+    MoveScaled(80,10,31,42)
+    Background = Color.Transparent
+    Tracking = True
+    Text = ("El parecido de Kdenlive con Premiere es tan asombroso como su estabilidad, funcionalidad y la variedad de formatos que admite. No le faltarán transiciones ni efectos y editar fundidos de audio jamás fue tan sencillo. \n\nAdemás, kdenlive tiene un manejo de los fotogramas muy conveniente para el trabajo de animación... Luego de probarlo se preguntará cómo pude trabajar antes sin él.")
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+}

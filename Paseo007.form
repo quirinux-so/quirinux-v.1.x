@@ -1,0 +1,48 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,114,70)
+  Background = Color.White
+  Border = False
+  { Label1 Label
+    MoveScaled(8,0,107,8)
+    Font = Font["Ubuntu,+5"]
+    Background = &HE7DFFF&
+    Foreground = Color.Gray
+    Text = ("Descubra Quirinux")
+  }
+  { PictureBox1 PictureBox
+    MoveScaled(8,10,68,40)
+    Picture = Picture["plantillas.png"]
+    Stretch = True
+  }
+  { TextArea1 TextArea
+    MoveScaled(80,10,31,42)
+    Background = Color.Transparent
+    Tracking = True
+    Text = ("Quirinux incluye LibreOffice en español con las tipografías con las que usted ya está familiarizado (y otras nuevas), configurado por defecto con los mismos valores que Office.\n\nAproveche las exclusivas plantillas pre-formateadas de Quirinux. ¡Escribir un guión cinematográfico o calcular el presupuesto para una película nunca fue tan fácil!")
+    ReadOnly = True
+    Wrap = True
+  }
+  { PictureBox2 PictureBox
+    MoveScaled(94,55,20,13)
+    Picture = Picture["logo.png"]
+  }
+  { Button9 Button
+    MoveScaled(80,64,11,4)
+    Font = Font["Arial,+1"]
+    NoTabFocus = True
+    Text = ("Salir")
+  }
+  { Button2 Button
+    MoveScaled(65,64,14,4)
+    Font = Font["Arial,+1"]
+    Text = ("Siguiente")
+  }
+  { Button1 Button
+    MoveScaled(50,64,14,4)
+    Font = Font["Arial,+1"]
+    NoTabFocus = True
+    Text = ("Anterior")
+  }
+}
