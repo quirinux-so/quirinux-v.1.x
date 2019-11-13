@@ -19,8 +19,12 @@
 #                                                                     #
 # Este código viene incluido y configurado al inicio                  #
 # del Sistema Operativo Quirinux.                                     #
+# www.quirinux.org                                                    #
 #                                                                     #
 # Fue programado por Charlie Martínez en Abril de 2019.               #
+# www.charliemartinez.com.ar                                          #
+# contacto@charliemartinez.com.ar                                     #
+#                                                                     #
 # Compartido bajo licencia GPLv3:                                     #
 #                                                                     #
 # Usted puede usar, modificar, copiar, compartir, redistribuir        #
