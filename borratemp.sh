@@ -37,13 +37,13 @@
 cd /lib/live/mount/rootfs/
 
 sudo rm -rf filesystem.squashfs
-cd /lib/live/mount
+cd /lib/live/mount/
 sudo rm -rf medium
 
 # Extra 1: elimina archivos de documentación:
 
 cd /usr/share/doc/
-sudo rm -rf *.*
+sudo rm -rf 
 
 # Extra 2: elimina arhivos.deb de instalación
 
