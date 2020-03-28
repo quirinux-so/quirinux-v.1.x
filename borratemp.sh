@@ -51,4 +51,4 @@ sudo rm -rf /var/lib/apt/lists/lock/*
 sudo rm -rf /var/cache/apt/archives/lock/*
 sudo rm -rf /var/lib/dpkg/lock/*
 sudo rm -rf /var/cache/apt/archives/*.deb
-sudo rm -rf /var/cache/apt/partial/*.deb
+sudo rm -rf /var/cache/apt/archives/partial/*.deb
