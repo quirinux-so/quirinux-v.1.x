@@ -1,9 +1,11 @@
-# Quirinux GNU/Linux
+# Quirinux GNU/Linux V.1.x
+Este repositorio contiene los códigos escritos en Gambas3 <i>(similar a Visual Basic</i>, Bash y ficheros de configuración modificados que formaron parte de las versiones 1.0, 1.1 y 1.2 de Quirinux.
+### ¿Qué es Quirinux
 <a href="https://quirinux.neocities.org">Quirinux</a> es un sistema operativo libre y gratuito basado en Debian/GNU Linux. Está diseñado para facilitar su uso en computadoras de escritorio destinadas para la producción de cine animado. Fue preparado, configurado y compartido por un sólo usuario con cierta experiencia práctica en configuraciones, con la idea de facilitarle las cosas a quienes nunca habían probado un sistemas distintos a Windows o Mac.
 El único mantenedor de Quirinux es Charlie Martínez, un usuario argentino que encontró a Debian muy útil para creación de contenido y luego de meses de trabajar modificando archivos de configuración e instalando y probando software interesante, decidió compartir los resultados para allanar el camino a gente con menos experiencia y que sólo quiere prender la computadora y encontrar herramientas necesarias para hacer su trabajo sin preocuparse por actualizaciones, antivirus ni en el peor de los casos cracks y keygens. Quirinux es un regalo y como tal se proporciona sin ninguna garantía. 
-# Acerca de este repositorio
+### Acerca de este repositorio
 Quirinux se comparte bajo licencia una licencia libre. Del código fuente que conforma Quirinux se compartirá en este repositorio sólo aquel que sea de producción o modificación propia, ya que por estar basado en Debian, Quirinux comparte el código fuente principal de aquella y es en los repositorios de Debian a donde se los debe ir a buscar.
-# CaLcuTooN
+### CaLcuTooN
 CaLcuTooN es una poderosa aplicación de cálculo programada sobre la plataforma LibreOffice Calc, pero compatible con la mayoría de las Hojas de Cálculo de Ofimática actuales. Se incluye en este repositorio por constituir la primera pieza liberada del proyecto Quirinux. 
 #### Avisos legales
 (p) y (c) 2020. Charlie Martínez y Quirinux son marcas registradas. Todo el software aquí publicado está protegido por Derechos de Autor y registrada en DNDA y se distribuye bajo licencia GPLv2.0, mientras que todo el contenido artistico que acompaña al software (íconos, wallpapers, etc) y el literario (manuales y textos en general) es distribuido bajo licencia <a href="https://creativecommons.org/licenses/by/4.0/deed.es">Creative Commons Reconocimiento 4.0 Internacional</a>. Windows, Mac, GitHub, Debian, TupiTube, OpenToonz, Ardour, Linux, GNU  y otras son marcas registradas por sus respectivo dueños.
